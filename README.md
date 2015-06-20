@@ -8,15 +8,17 @@ Features:
     
 - A save button that saves all cached data into a project file [TO FIX].
 
-RGB video feed on the top left corner [TO FIX].
+- RGB video feed on the top left corner [TO FIX].
 
 Base Code: Unity Point Cloud Tango Example
 
-Notes:
+Other Notes:
 
 Many problems with properly obtaining raw YUV image data simultaneously with depth data. Skeleton left commented out for future API updates.
 
-Fixed overheating problem, and potential memory leaks.
+Fixed overheating problem, and some memory leaks.
+
+Conventional Android local file saving unsuccessful - need to find workaround for Tango.
 
 Sample depth scan of a staircase:
 ![alt tag](https://raw.githubusercontent.com/andyzeng/roomscanner/master/Preview/Screenshot_2015-06-19-19-43-54.png)
