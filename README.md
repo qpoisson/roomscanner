@@ -14,11 +14,11 @@ Base Code: Unity Point Cloud Tango Example
 
 Other Notes:
 
-Many problems with properly obtaining raw YUV image data simultaneously with depth data. Skeleton left commented out for future API updates.
+Many problems with properly obtaining raw YUV image data simultaneously with depth/pose/mocap data. Skeleton left commented out for future API updates.
 
 Fixed overheating problem, and some memory leaks.
 
-Conventional Android local file saving unsuccessful - need to find workaround for Tango.
+Problems with conventional functions for saving files to local Android memory - need to find a workaround for Tango.
 
 Sample depth scan of a staircase:
 ![alt tag](https://raw.githubusercontent.com/andyzeng/roomscanner/master/Preview/Screenshot_2015-06-19-19-43-54.png)
